@@ -13,28 +13,36 @@ body {
     text-align: center;
     font-size: 29px;
 }
+
 h1 {
     font-family: 'Fredericka the Great', cursive;
     font-size: 62px;
 }
-#crystals{
+
+#crystals {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.crystal{
-    border: 1px solid greenyellow;
+
+.crystal {
     height: 200px;
     width: 200px;
     margin: 50px;
 }
-#challengeNumber{
-    font-size: 45px;
-        font-family: 'Fredericka the Great',
-        cursive;
-    align-items: center;
 
+#challengeNumber {
+    font-size: 50px;
+    font-family: 'Fredericka the Great',
+        cursive;
 }
-#wins, #losses {
+
+#wins,
+#losses {
+    font-size: 35px;
+}
+#runningTotal {
+    font-family: 'Fredericka the Great',
+    cursive;
     font-size: 35px;
 }
