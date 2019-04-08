@@ -6,7 +6,7 @@ $(document).ready(function () { //
 
 
     var letsDoThis = function () {
-        $(".crystals").empty();
+        $("#crystals").empty();
 
         var crystalImages = [
             "./assets/images/crystal1.png",
